@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Number Trivia!</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Dodavanje CSS fajla -->
+  <script src="numbers.js" defer></script> <!-- Dodavanje JS fajla -->
+</head>
+<body>
+  <header>
+    <h1>Number Trivia!</h1>
+  </header>
+  <main>
+    <p>
+      <label for="num-box">Provide a Number:</label>
+      <input id="num-box" type="number" placeholder="Enter a number" title="Number Input"/>
+      <button id="fetch-num" title="Fetch Number Fact">Fetch Number Fact!</button>
+    </p>
+    <p>or if you're feeling numerically adventurous...</p>
+    <button id="fetch-random-num" title="Fetch Random Number Fact">Fetch Random Number Fact!</button>
+    <h2>Result:</h2>
+    <p id="output"></p>
+  </main>
+</body>
+</html>

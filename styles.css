@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Svetlo plava pozadina */
+    color: #333; /* Tamno siva boja teksta */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #003366; /* Tamno plava */
+    color: #ffffff; /* Bela boja teksta */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  label, p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #003366; /* Tamno plava */
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0066cc; /* Plava */
+    color: #ffffff; /* Bela boja teksta */
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  button:hover {
+    background-color: #005bb5; /* Tamnija plava kada se prelazi preko dugmeta */
+  }
+  
+  h2 {
+    color: #003366; /* Tamno plava */
+  }
+  
+  #output {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    body {
+      font-size: 0.9em;
+    }
+    
+    input[type="number"], button {
+      font-size: 0.9em;
+    }
+  }
+  
